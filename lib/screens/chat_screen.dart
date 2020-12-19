@@ -161,7 +161,7 @@ class MessageBubble extends StatelessWidget {
                     fontSize: 12,
                   ),
                 )
-              : Text('me'),
+              : Text('...'),
           Material(
             borderRadius: BorderRadius.only(
               topRight: isMe ? Radius.zero : Radius.circular(30.0),
